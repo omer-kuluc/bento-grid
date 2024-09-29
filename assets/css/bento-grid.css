@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f6f5f6;
+  font-family: "DM Sans";
+}
+
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-inline: 16px;
+  padding-top: 32px;
+}
+
+.social-media-card {
+  background-color: #7551dc;
+  padding: 40px 32px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+.social-media-card h2 {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.social-media-card span {
+  color: #ffcc6a;
+}
+
+.social-media-card img {
+  margin-bottom: 8px;
+  margin-inline: auto;
+}
+
+.social-media-card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.manage-card {
+  padding-block: 16px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-bottom: 32px;
+}
+
+.manage-card img {
+  margin-right: 10px;
+  margin-bottom: 16px;
+}
+
+.manage-card h2 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  color: black;
+  padding-inline: 16px;
+}
+
+.maintain-card {
+  background-color: #ffcc6a;
+  padding-inline: 16px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+.maintain-card h2 {
+  padding-top: 16px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.06em;
+  color: #121212;
+  margin-bottom: 16px;
+}
+
+.schedule-card {
+  background-color: #dbd1fc;
+  padding-inline: 16px;
+  padding-block: 32px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+.schedule-card h2 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.06em;
+  color: #121212;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.schedule-card img {
+  margin-inline: auto;
+  margin-bottom: 24px;
+}
+
+.schedule-card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #121212;
+  text-align: center;
+}
+
+.grow-followers-card {
+  background-color: #7551dc;
+  padding-block: 24px;
+  padding-inline: 57px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+
+.grow-followers-card img {
+  margin-inline: auto;
+  margin-bottom: 40px;
+}
+
+.grow-followers-card p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.06em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.faster-audience-card {
+  padding-left: 24px;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 32px;
+}
+
+.faster-audience-card h2 {
+  padding-top: 24px;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  margin-bottom: 15px;
+}
+
+.faster-audience-card p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.create-schedule-card {
+  border-radius: 10px;
+  margin-bottom: 32px;
+  background-color: #f9eee2;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+.create-schedule-card p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.06em;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.create-schedule-card span {
+  color: #7551dc;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.06em;
+}
+
+.write-your-content-card {
+  border-radius: 10px;
+  padding: 24px;
+  background-color: #ffcc6a;
+  margin-bottom: 40px;
+}
+
+.write-your-content-card p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.06em;
+  margin-bottom: 24px;
+  color: #121212;
+}
+
+@media (width>=768px) {
+  .social-media-card {
+    height: 324px;
+    max-width: 700px;
+    margin-inline: auto;
+  }
+
+  .social-media-card p {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    max-width: 536px;
+    margin-inline: auto;
+  }
+
+  .manage-maintain-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-inline: auto;
+    max-width: 700px;
+  }
+
+  .schedule-card,
+  .grow-followers-card,
+  .faster-audience-card,
+  .create-write-group {
+    max-width: 700px;
+    margin-inline: auto;
+  }
+
+  .schedule-card p {
+    max-width: 359px;
+    margin-inline: auto;
+  }
+
+  .grow-followers-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-height: 246px;
+  }
+
+  .grow-followers-card p {
+    align-items: center;
+    padding-top: 78px;
+  }
+
+  .grow-followers-card img {
+    padding-block: auto;
+  }
+
+  .faster-audience-card {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .create-write-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .create-write-group div {
+    margin-inline: auto;
+    height: 354px;
+  }
+
+  .create-schedule-card {
+    padding-top: 78px;
+  }
+
+  .create-write-group p {
+    max-width: 280px;
+    text-align: center;
+  }
+}
